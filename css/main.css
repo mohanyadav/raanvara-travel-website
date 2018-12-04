@@ -1,0 +1,148 @@
+/* Global Styles */
+@font-face {
+    font-family: "Manus";
+    src: url(fonts/Manus.ttf);
+}
+
+body {
+    font-family: 'Manus', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Alegreya', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Manus', sans-serif;
+}
+
+p {
+    font-family: 'Alegreya', sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+    height: auto;
+    background: rgb(255, 255, 255);    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav img {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+nav ul li a {
+    font-family: 'Alegreya', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 20px 20px;
+    color: rgb(126, 126, 126);
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgb(250, 248, 248);
+    transition: all 0.3s;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* Home Styles */
+.left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_wrapper {
+    height: auto;
+    width: 100%;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.home h1 {
+    font-family: 'Manus', serif;
+    font-size: 6em;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+.home p {
+    font-size: 1.2em;
+    padding-right: 30px;
+    line-height: 30px;
+    color: rgb(167, 157, 157);
+    font-weight: 200;
+    padding-right: 40px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.destinations_cta {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 14px 24px;
+    margin-right: 20px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.destinations_cta:hover {
+    background: linear-gradient(135deg, #7b8ee4 0%, #8e66b6 100%);
+    transition: all 0.3s;
+}
+
+.gallery_cta {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background: rgb(250, 248, 248);
+    color: rgb(0, 0, 0);
+    padding: 14px 24px;
+    margin-right: 20px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.gallery_cta:hover {
+    background: rgb(237, 232, 232);
+    transition: all 0.3s;
+}
